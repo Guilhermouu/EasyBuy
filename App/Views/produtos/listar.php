@@ -1,7 +1,14 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-
-<div class="container mt-5">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Easy Buy</title>
+</head>
+<body>
+   <div class="container mt-5">
     <h2 class="text-center mb-4">Lista de Produtos</h2>
     <div class="text-center mb-4">
         <a href="index.php?action=cadastrarProduto" class="btn btn-success">Cadastrar Novo Produto</a>
@@ -25,4 +32,6 @@
             </div>
         <?php endforeach; ?>
     </div>
-</div>
+</div> 
+</body>
+</html>
